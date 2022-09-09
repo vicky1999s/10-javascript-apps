@@ -15,7 +15,7 @@ header{
     display: flex;
     justify-content: center;
     margin: 20px;
-    color: #434A50;
+    color: #98533c;
 }
 
 .container{
@@ -33,6 +33,7 @@ header{
 .header{
     font-size: 2rem;
     margin-top: 2rem;
+    color: #927064;
 }
 
 .timer{
@@ -53,11 +54,13 @@ header{
 .big-text{
     font-size: 5rem;
     font-weight: 600;
+    color: #927064;
 }
 
 .small-text{
     font-size: 1.5rem;
     font-weight: 400;
+    color: #927064;
 }
 
 @media only screen and (max-width: 480px) {
