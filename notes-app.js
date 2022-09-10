@@ -40,7 +40,8 @@ function addNewNote(text){
     textarea.value = text
 
     editbtn.addEventListener("click", ()=>{
-        textarea.disabled = !disabled
+        disabled = !disabled
+        textarea.disabled = disabled
         editicon.classList.toggle("selected")
 
     })
