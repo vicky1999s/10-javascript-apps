@@ -48,6 +48,7 @@ function addNewNote(text){
 
     deletebtn.addEventListener("click", ()=>{
         notesContainter.removeChild(note)
+        updateLS()
     })
 
     textarea.addEventListener("input", (e)=>{
