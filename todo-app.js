@@ -2,6 +2,7 @@ const newTask = document.querySelector("input")
 const addBtn = document.querySelector("button")
 const incompleteTasks = document.querySelector(".incomplete-task-lists")
 const completedTasks = document.querySelector(".completed-task-lists")
+const body = document.querySelector("body")
 
 
 const getIncompleteTasks = JSON.parse(localStorage.getItem("incomplete-items"))
@@ -18,6 +19,12 @@ if(getCompletedTasks){
         moveToCompleted(task)
     })
 }
+
+body.addEventListener("keypress",(e)=>{
+    if(e.code==="Enter"){
+        newTask.value?addBtn.click():alert("please! enter the task")
+    }
+})
 
 addBtn.addEventListener("click", ()=>{
     const value = newTask.value
