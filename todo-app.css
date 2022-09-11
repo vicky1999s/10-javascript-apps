@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: #d3efdf;
+    min-height: 50vh;
+    width: 80%;
+    margin: 5rem;
+    border: 4px solid  #b1c9bb;
+    border-radius: 1rem;
+}
+
+.heading{
+    width: 100%;
+    text-align: center;
+}
+
+.add-task{
+    background-color: white;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: 12%;
+    padding: 5px;
+    border: 2px solid #b1c9bb;
+    margin: auto;
+}
+
+.tasks-container{
+    display: flex;
+    align-items: flex-start;
+    margin: 1rem auto;
+}
+
+.incomplete-tasks,.completed-tasks{
+    background-color: white;
+    margin: 0px;
+    padding: 1.1rem;
+    border: 2px solid #b1c9bb;
+    
+}
+
+.incomplete-tasks{
+    width: 35%;
+    margin-left: 10%;
+}
+
+.completed-tasks{
+    width: 35%;
+    margin-left: 10%;
+}
+
+h2{
+    margin: 0;
+    text-align: center;
+    border-bottom:1px solid #b1c9bb;
+    padding: 0 0 10px;
+    color:#57635c;
+}
+
+ul{
+    padding-left: 0;
+}
+
+li{
+    list-style-type: none;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom: 1px solid #b1c9bb;
+}
+
+li>button{
+    float: right;
+}
+
+
+
+
