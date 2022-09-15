@@ -4,7 +4,71 @@
     box-sizing: border-box;
 }
 
+html{
+    height: 100%;
+    overflow: auto;
+
+}
+
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: #111111;
+    color: white;
+    height: 90%;     
+
+}
+
+header{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 3rem;
+    background: linear-gradient(to right, red, yellow, blue, purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    border-radius: 0 0 5px rgb(0, 0, 0, 1);
+    letter-spacing: 0.2rem;
+}
+
+.projects{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+.project{
+    width: 350px;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 30px;
+    background-color: #232323;
+}
+
+img{
+    width: 350px;
+    height: 250px;
+}
+
+p{
+    display: inline-block;
+    background: linear-gradient(to right, red, yellow, blue, purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin: auto;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.heading{
+    text-align: center;
 }
 

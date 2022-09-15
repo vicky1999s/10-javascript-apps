@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #2A223B; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+header h1{
+    text-align: center;
+    color: #b3b8cd;
+}
+
+h1,h3{
+    margin: 0;
+}
+
+p,h3,span{
+    color: #b3b8cd;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;  
+    position: relative; 
+}
+
+.repo-box::before{
+    content: '';
+    position: absolute;
+    background-color:rgb(0, 0, 0, 0.3);
+    height: 20px;
+    width: 90%;
+    bottom: -50px;
+    left: 5%;
+    border-radius: 50%;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+#search{
+    padding: 10px;
+    width: 350px;
+    background: transparent;
+    outline: none;
+    border: 3px solid #1f1a36;
+    border-radius: 1rem;
+    color: white;
+    padding: 10px;
+    font-size: large;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.5rem;
+    margin: 20px 0;
+}
+
+#search:focus{
+    letter-spacing: 0.1rem;
+    text-transform: none;
+    border: 3px ridge #10B9C9;
+    border-style: ridge;
+    color: #b3b8cd;
+}
+
+#search:focus::placeholder{
+    color: transparent;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #231e39;
+    padding-top: 1rem;
+}
+
+.profile img{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 100px;
+    border: 2px solid #10B9C9;
+    margin: 10px 0;
+}
+
+.profile h3,p{
+    text-align: center;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font: bolder;
+    color: white;
+    margin: 1rem 0;
+
+}
+
+.icons p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
+    font-size: 0.7rem;
+}
+
+
+.icons p span{
+    color: #10B9C9;
+    font-size: large;
+    padding: 2px;
+    border-radius: 10px;
+    margin:0 5px ;
+}
+
+.repo-box{
+    background-color: #1f1a36;
+    padding: 1rem 0.2rem;
+}
+
+.repo-box p{
+    margin:0.3rem;
+}
+
+.repo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.repo a{
+    font-size: 0.6rem;
+    padding: 5px;
+    margin:0.3rem;
+    border: 1px solid #464c66;
+    color: #b3b8cd;
+    text-decoration: none;
+}
