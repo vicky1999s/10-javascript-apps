@@ -107,7 +107,6 @@ button.addEventListener("click", (e)=>{
             flag = true
             if(answer.value===questions[currQuestion]["ans"]){
                 score++
-                console.log("correct answer")
             }
             answer.checked=false
         }

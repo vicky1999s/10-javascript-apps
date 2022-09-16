@@ -27,13 +27,10 @@ totalCharsInputEl.addEventListener("input", ()=>{
 })
 
 upperCaseInputEl.addEventListener("input", ()=>{
-    console.log("checked")
     if(upperCaseInputEl.checked){
-        console.log("inside")
         upperCaseEl.style.color="#41b14f";
-        console.log(upperCaseEl)
     }else{
-        upperCaseEl.style.color="red"
+        upperCaseEl.style.color="red";
     }
 })
 
@@ -109,7 +106,6 @@ function generatePassword(){
     }
     let password = pwd.join("");
     copyToClipboard(password);
-    console.log(password);
 }
 
 function copyToClipboard(text) {

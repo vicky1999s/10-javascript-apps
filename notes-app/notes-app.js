@@ -4,7 +4,6 @@ const addButton = document.getElementsByClassName("btn")
 
 if(notes){
     notes.forEach((note)=>{
-        console.log(note)
         addNewNote(note)
     })
 }

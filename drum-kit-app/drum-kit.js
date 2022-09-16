@@ -15,6 +15,4 @@ window.addEventListener("keydown", (e)=>{
     key.classList.add("transform");
     audio.currentTime = 0;
     audio.play()
-    console.log(audio);
-    console.log(key);
 })

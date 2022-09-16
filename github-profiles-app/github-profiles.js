@@ -17,11 +17,9 @@ form.addEventListener("submit", (e)=>{
 })
 
 async function findProfile(url){
-    console.log(url)
     try {
         const value = await fetch(url)
         if(!value.ok){
-            console.log("not found")
             profile_box.innerHTML = ''
             alert("user not found")
             return;
@@ -71,7 +69,6 @@ async function showProfile(profile){
     profile_box.appendChild(profileEl)
     profile_box.appendChild(repoEl)
 
-    console.log(profile);
 }
 
 async function getStars(profile, repoNames, repoUrl){

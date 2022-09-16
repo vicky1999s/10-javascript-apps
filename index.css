@@ -27,7 +27,7 @@ h1{
     display: inline-block;
     font-weight: 600;
     font-size: 3rem;
-    background: linear-gradient(to right, red, yellow, blue, purple);
+    background: linear-gradient(to right, red, yellow, blue, purple, yellow);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -50,6 +50,13 @@ h1{
     margin-left: 20px;
     margin-top: 30px;
     background-color: #232323;
+    transition: all 0.3s ease-in;
+    border-radius: 10px;
+}
+
+.project:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 5px 1px yellow;
 }
 
 img{
@@ -72,3 +79,39 @@ p{
     text-align: center;
 }
 
+button{
+    position: absolute;
+    top: 30;
+    right: 30px;
+    outline: none;
+    border: none;
+    float: right;
+    height: 40px;
+    width: 150px;
+    background: transparent;
+    border-width: 3px;
+    border-style: double;
+    border-image: linear-gradient(to right, red, yellow) 1;
+    transition: all 0.1s ease-in;
+    
+}
+
+button>a{
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    font-size: larger;
+    color: blue;
+    font-weight: 600;
+    
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+span{
+    font-size: small;
+    letter-spacing: normal;
+    padding-right: 5px;
+}

@@ -20,8 +20,6 @@ function countdown(){
     minutesEl.innerHTML = formatTime(minutes)
     secondsEl.innerHTML = formatTime(seconds)
 
-    console.log(days, hours, minutes, seconds)
-
 }
 
 function formatTime(time){
