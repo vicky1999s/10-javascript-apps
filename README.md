@@ -1,6 +1,6 @@
 # 10-javascript-challenges
 
-<h3> <a href="https://celadon-blancmange-f3dbab.netlify.app/" target="_blank">Click to visit site</a> </h3>
+<h3> <a href="https://jsappsvicky.netlify.app/" target="_blank">VIEW SITE</a> </h3>
 
 10 Javascript Application Challenge
 
